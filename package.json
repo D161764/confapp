@@ -1,0 +1,32 @@
+{
+  "name": "conference-app",
+  "version": "1.0.0",
+  "description": "Tech Conference Presentation Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "cds run",
+    "watch": "cds watch"
+  },
+  "dependencies": {
+    "@sap/cds": "^6.8.4",
+    "axios": "^1.7.8",
+    "express": "^4.21.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^6.8.3"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": "db.sqlite"
+        }
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
